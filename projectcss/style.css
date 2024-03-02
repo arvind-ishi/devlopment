@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+
+/* this is the navbar complete css part code  */
+#main {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+}
+
+/* that is he code for the all of the code to the mange the items in the one by one  */
+
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+}
+
+/* that the left of the side section in nav part to create the css  */
+#nava-part1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+
+#nav h3 {
+
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-weight: 100;
+    padding: 5px;
+
+    cursor: pointer;
+}
+
+#nav i {
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-weight: 100;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+/* this is the middele section */
+
+
+#nav h1 {
+
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+
+/* this is the code for the button  */
+#nav button {
+
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 100;
+    font-size: 15px;
+
+
+
+}
+
+#btn2 {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: orangered;
+}
+
+
+/* end of the navbar part css code  */
+
+
+
+/* creating the code for the middle part of the website is the now  */
+
+
+#advantages {
+    /* background-color: pink; */
+    font-size: 120px;
+    text-transform: uppercase;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+
+
+
+}
+
+
+
+
+/* this is the code for image tag in it  */
+
+
+img {
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    /* this is used the lok of the
+     positon from top used bottom also you can use it */
+    object-position: top;
+
+    /* this is use to image cover the all  */
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(-40deg);
+
+}
+
+#img2 {
+    transform: translate(-50%, -505) rotate(-30deg);
+
+}
+
+#img3 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+
+}
+
+#img4 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+
+}
+
+
+
+/* this is the string of the footer section css */
+
+#btm-left {
+
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+
+
+/* this is aro of the css code  */
+.half-circle {
+
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+
+#left-conner {
+    /* background-color: aqua; */
+    position: absolute;
+    bottom: 5%;
+    left: 80%;
+    text-align: center;
+}

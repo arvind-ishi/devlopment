@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+/* this is the box to the center to fix */
+/* h1{ */
+/* margin: 20px; */
+/* padding:10px ; */
+/* } */
+/* .box { */
+/* width: 500px; */
+/* height: 400px; */
+/* background-color: red; */
+/* position: absolute; */
+/* top: 50%; */
+/* left: 50%; */
+/* transform: translate(-50%, -50%); */
+/*  */
+/* } */
+/*  */
+
+/* .box2 { */
+/* width: 300px; */
+/* height: 500px; */
+/* background-color: blue; */
+/* position: absolute; */
+/* top: 10%; */
+/* left: 10%; */
+/* transform: translate(-50%, -50%); */
+/*  */
+/* } */
+
+
+
+/* the text is in centter the code of the css h1 to be center  */
+
+/* #text{ */
+/*  */
+/* background-color: burlywood; */
+/* font-size: 50px; */
+/* width: 30%; */
+/* height: 20%; */
+/* margin-top: 40vh; */
+/* margin-left:50vh; */
+/*  */
+/*      */
+/* } */
+
+
+/* #text{ */
+/* font-family: monument; */
+/* font-weight: 100; */
+/* font-style: normal; */
+/* font-size: 50px; */
+/* color: turquoise; */
+/* position: absolute; */
+/* left:150vh; */
+/* top: 60%; */
+/* right: 0%; */
+/* bottom: 0%; */
+/*     */
+/*     */
+/* top: 50%; */
+/* left: 50%; */
+/* transform: translate(-50%,-50%); */
+/* background-color: bisque; */
+/* } */
+
+
+
+
+#parent {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(49, 60, 164);
+    display: flex;
+
+    /* this is the aling items work in the y axis so using you can be the used the center the item  */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+/* align-items: flex-start; */
+
+/* align-items: center; */
+/* this****** is the justify conmtent int X axis int the used for the center of the x axis  */
+
+
+
+/* justify-content: center; */
+
+/* justify-content: flex-end;   this is the used end of the x axis */
+
+/* justify-content: flex-start; */
+/* 
+this is the conteent int the create the space betweent atems 
+justify-content: space-between; */
+
+/* it can be creand the item in the hacve arond the space create  */
+/* justify-content: space-around; */
+/*it is used itolick that   */
+/* justify-content: space-evenly; */
+    justify-content: space-between;
+    
+}
+
+#child1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(212, 89, 89);
+}
+
+#child2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(130, 130, 186);
+}
+
+#child3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(13, 247, 169);
+
+}

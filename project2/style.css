@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main {
+
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+}
+
+/* nava bar  is the creating  */
+#navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+
+    align-items: center;
+
+    justify-content: flex-end;
+
+
+
+
+
+}
+
+#navbar h3:hover {
+    background-color: #444;
+
+}
+
+#navbar h3 {
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+
+}
+
+
+/* the nav bar end */
+#intro {
+    /* background-color: rgb(171, 233, 233); */
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+
+    padding: 10px;
+    font-size: 120px;
+    letter-spacing: -3px;
+
+
+}
+
+#place {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+#place h3,
+#place h4 {
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+/* this is the code introdution is ended  */
+
+/* strating the code by the html */
+/* the imge code is  */
+#hero-image {
+
+    height: 100%;
+    width: 100%;
+
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-2000.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/* the code image is end */
+
+/* the about code is staring  */
+
+#about {
+    padding: 20px;
+    margin: 10px;
+
+    width: 100%;
+
+    height: 80%;
+    display: flex;
+
+    border-bottom: 2px solid black;
+
+}
+
+#about h2 {
+
+
+    /* background-color: rgb(175, 238, 91); */
+    width: 60%;
+
+    font-size: 70px;
+    line-height: 80px;
+    border-right: 2px solid black;
+
+}
+
+#about-part2 {
+    padding-left: 40px;
+
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+}
+
+#icons {
+    font-size: 30px;
+
+    color: white;
+
+    margin: 10px;
+
+
+}
+
+#icons i {
+    padding: 10px 10px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 40px;
+}
+
+
+
+
+/* this is the css work in the cart scrtion css start  */
+
+
+#work {
+    width: 100%;
+    height: 70%;
+    /* background-color: #444; */
+    display: flex;
+    margin: 50px;
+
+    justify-content: space-between
+}
+
+#work-part1 {
+    padding: 20px 10px;
+
+    width: 40%;
+
+    border-right: 2px solid black;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+
+
+
+
+}
+
+#work-part1 i {
+    margin-right: 20px;
+
+}
+
+#work-part2 {
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+#cart {
+    display: flex;
+    border-bottom: 2px solid black;
+
+
+}
+
+#cart1 {
+    margin: 20px;
+    padding: 30px 10px;
+    border-right: 2px solid black;
+
+}
+
+#cart2 {
+    margin: 20px;
+    padding: 20px 10px;
+}
+
+h3 {
+    font-size: 30px;
+
+}
+
+p {
+    color: #444;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#cart-one {
+
+    margin: 20px;
+    padding: 30px 10px;
+    border-right: 2px solid black;
+
+
+
+
+}
+
+#cart-two {
+    margin: 20px;
+    width: 68%;
+    padding: 30px 10px;
+
+
+
+}
+
+#cart-part2 {
+    display: flex;
+
+
+}
+
+
+/* this is end totorial is self start */
+#self h1 {
+
+    border-top: 2px solid black;
+
+    display: flex;
+
+    width: 200%;
+    font-size: 200px;
+
+
+
+}
+
+#self img {
+
+    width: 100%;
+    height: auto;
+
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+#camera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#camera h2 {
+
+    padding: 10px;
+    margin: 50px;
+    font-size: 150px;
+    width: 50%;
+    font-weight: 600;
+
+
+}
+
+#para p {
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+#buttons button {
+    padding: 10px;
+    background-color: #010101;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+
+
+
+}
+
+#img2>img {
+
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#Noise {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+#Noise>h2 {
+    padding: 20px;
+    font-size: 150px;
+    font-weight: 600;
+    width: 50%;
+
+}
+
+#Noise2>p {
+
+
+    font-size: 20px;
+
+    font-weight: 600;
+    margin: 20px;
+
+}
+
+
+#Noise3 button {
+    padding: 10px;
+    background-color: #010101;
+    border: 2px solid red;
+    border-radius: 20px;
+    color: white;
+
+}
+
+
+#robot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+#robot>h2 {
+    font-size: 150px;
+    width: 50%;
+    margin-right: 40px;
+}
+
+#robot1>p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+#butt>button {
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/* this is the collection of the css stated */
+
+#myclient {
+    display: flex;
+
+    border-top: 2px solid black;
+    padding: 20px;
+
+
+}
+
+#client {
+    width: 70%;
+    display: flex;
+
+    justify-content: space-around;
+    border-right: 2px solid black;
+
+
+
+
+
+}
+
+#info {
+
+    width: 100%;
+}
+
+#con1 {
+    display: flex;
+
+    justify-content: space-between;
+border-bottom: 2px solid black;
+
+}
+
+#frist {
+    padding: 10px;
+    margin: 20px;
+
+    width: 40%;
+    border-right: 2px solid black;
+}
+
+#frist h2 {
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+#frist p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #444;
+    padding: 20px;
+
+}
+
+#photo1 {
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+#photo1 img {
+    width: 30%;
+    height: auto;
+    background: cover, no-repeat, center;
+    border-radius: 50%;
+
+
+}
+
+#text1 {
+
+padding-left: 10px;
+
+
+}
+
+#text1>h2 {
+
+
+    font-size: 20px;
+padding: 0;
+
+}
+
+#text1>h3 {
+    font-size: 20px;
+    color: #444;
+}
+
+#second {
+
+    width: 50%;
+    padding-top: 30px;
+
+
+
+}
+
+#con2 {
+    display: flex;
+    width: 20%;
+
+}
